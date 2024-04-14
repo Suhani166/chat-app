@@ -7,7 +7,7 @@ let APP_HOST = "";
 switch (APP_ENV) {
 	case "local":
 		console.log("connecting to local");
-		APP_HOST = "http://localhost:5000";
+		APP_HOST = "https://mern-chat-app-backend-nine.vercel.app/";
 		break;
 	case "prod":
 		console.log("connecting to prod");
@@ -15,7 +15,7 @@ switch (APP_ENV) {
 		break;
 	default:
 		console.log("connecting to default api (local)");
-		APP_HOST = "http://localhost:5000";
+		APP_HOST = "https://mern-chat-app-backend-nine.vercel.app/";
 		break;
 }
 
